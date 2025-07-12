@@ -23,4 +23,5 @@
  * `cava`,
  * `pipes.sh`,
  * `swww`,
- * `waybar`
+ * `waybar`,
+ * `azote`
