@@ -163,7 +163,7 @@
 
   "custom/power": {
         "format":" ⏻  ",
-        "on-click": "exec ~/.config/sway/scripts/power_menu.sh",
+        "on-click": "exec ~/.config/sway/scripts/power_Menu.py",
         "tooltip": false
   },
 
