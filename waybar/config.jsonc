@@ -2,7 +2,7 @@
   "layer": "top",
   "position": "top",
   "height": 32,
-  "spacing": 4,
+  "spacing": 2,
   "margin-top": 8,
   "margin-left": 10,
   "margin-right": 10,
@@ -190,10 +190,10 @@
 	  "player-icons": {
 		  "default": "▶",
 		  "mpv": "🎵"
-	},
-	"status-icons": {
-		"paused": "⏸"
-	},
+	  },
+	  "status-icons": {
+		  "paused": "⏸"
+	  },
 	  "ignored-players": ["firefox"]
   },
 }

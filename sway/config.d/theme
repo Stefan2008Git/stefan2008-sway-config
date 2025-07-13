@@ -16,15 +16,15 @@ smart_borders on
 
 # Set wallpaper:
 exec swww-daemon -f xrgb  # if any issues appears try to change format. Possible values: xrgb|xbgr|rgb|bgr
-exec swww img $HOME/Pictures/Wallpapers/Sway-red.png
+exec swww img $HOME/Pictures/Wallpapers/freedom.png
 # Title format for windows
 for_window [shell="xdg_shell"] title_format "%title (%app_id)"
 for_window [shell="x_wayland"] title_format "%class - %title"
 
 # class                 border  bground text    indicator child_border
-client.focused          #cdd6f4 #a50000 #cdd6f4 #3f0000   #a50000
-client.focused_inactive #11111b #720000 #cdd6f4 #11111b   #11111b
-client.unfocused        #11111b #720000 #cdd6f4 #3f0000   #3f0000
+client.focused           #9aa5ce #16161d #c0caf5 #9aa5ce   #9aa5ce
+client.focused_inactive  #16161d #16161d #c0caf5 #16161d   #16161d
+client.unfocused         #16161d #16161d #c0caf5 #16161d   #16161d
 client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
 client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
 client.background       #F8F8F2
