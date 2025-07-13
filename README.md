@@ -17,6 +17,8 @@
  * `swayfx`,
  * `swaylock`,
  * `nwg-drawer`,
+ * `pavucontrol`,
+ * `blueman`
  * `wofi`,
  * `foot`,
  * `xfce4-terminal`,
