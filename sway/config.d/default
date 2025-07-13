@@ -205,16 +205,12 @@ bindsym $mod+r mode "resize"
     bindsym $mod+n exec thunar
     bindsym $mod+o exec firefox
 #
-# Keybindings List
-#
-    bindsym $mod+t exec xed ~/.config/sway/cheatsheet
-#
 # Screenshots
 #
     # Snip a selection and pipe to swappy
-    bindsym print exec grim -g "$(slurp)" - | swappy -f -
+    bindsym $mod+print exec grim -g "$(slurp)" - | swappy -f -
     # Screenshot a window and pipe to swappy
-    bindsym Ctrl+Print exec ~/.config/sway/scripts/screenshot_window.sh
+    bindsym $mod+Ctrl+Print exec ~/.config/sway/scripts/screenshot_window.sh
     # Screenshot the current display and pipe to swappy
     bindsym $mod+Shift+Print exec ~/.config/sway/scripts/screenshot_display.sh
 #

@@ -30,6 +30,7 @@
  * `Super (Windows) + O` - Open Firefox
  * `Super (Windows) + D` - Open application menu (Wofi)
  * `Super (Windows) + Shift + Print` - Screenshot the whole screen
+ * `Super (Windows) + Ctrl + Print` - Screenshot the window region
  * `Super (Windows) + Print` - Screenshot the region
  * `Super (Windows) + Shift + Space` - Floating window
  * `Super (Windows) + W` - Enable title
