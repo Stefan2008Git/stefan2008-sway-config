@@ -98,15 +98,13 @@
   },
 
   "network": {
-        "format-disabled": " Disabled",
-        "format-wifi": "  {bandwidthDownBits:>} 󰶡 {bandwidthUpBits:>} 󰶣",
-        "tooltip-format-wifi": "{essid}",
-        "format-ethernet": "󰈀  {bandwidthDownBits:>} 󰶡 {bandwidthUpBits:>} 󰶣",
-        "tooltip-format-ethernet": "{ifname}: {ipaddr}/{cidr}",
-        "format-disconnected": "  Disconnected!",
-        "on-click": " nmtui",
-        "interval": 2
-    },
+      "interval": 5,
+      "format-wifi": "  {essid} ({signalStrength}%)", // Icon: wifi
+      "format-ethernet": "  {ifname}: {ipaddr}/{cidr}", // Icon: ethernet        "format-disconnected": "⚠  Disconnected",
+      "tooltip-format": "{ifname}: {ipaddr}",
+      "on-click": "xfce4-terminal -e 'nmtui'"
+  },
+
   "cpu": {
         "interval": 5,
         "format": " {usage:>3}% ",

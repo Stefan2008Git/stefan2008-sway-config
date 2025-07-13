@@ -19,6 +19,8 @@
  * `nwg-drawer`,
  * `wofi`,
  * `foot`,
+ * `xfce4-terminal`,
+ * `thunar`,
  * `rofi`,
  * `cava`,
  * `pipes.sh`,
