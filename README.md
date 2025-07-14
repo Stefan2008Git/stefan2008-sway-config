@@ -42,8 +42,8 @@
  * `Super (Windows) + Ctrl + Print` - Screenshot the window region
  * `Super (Windows) + Print` - Screenshot the region
  * `Super (Windows) + Shift + Space` - Floating window
- * `Super (Windows) + W` - Enable title
- * `Super (Windows) + E` - Remove title
+ * `Super (Windows) + W` - 
+ * `Super (Windows) + E` - Toggle split
  * `Super (Windows) + S` - Snap windows
  * `Super (Windows) + Holding left mouse` - Move floating window
  * `Super (Windows) + Holding right mouse` - Resize floating window
