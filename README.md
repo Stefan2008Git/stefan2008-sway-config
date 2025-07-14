@@ -20,7 +20,9 @@
  * `swaylock`,
  * `swayidle`
  * `swaync`,
- * `gnome-keyring`
+ * `swappy`,
+ * `gnome-keyring`,
+ * `grimshot`,
  * `nwg-drawer`,
  * `pavucontrol`,
  * `blueman`,
