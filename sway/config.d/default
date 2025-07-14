@@ -1,6 +1,10 @@
 #Notificaciones
 exec swaync
 
+# XDG Dbus (Screensharing fixer)
+exec systemctl --user import-environment DISPLAY WAYLAND_DISPAY SWAYSOCK XDG_CURRENT_DESKTOP
+exec hash dbus-update-actication-environment 2>/dev/null && \ dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK XDG_CURRENT_DESKTOP XDG_CURRENT_DESKTOP=sway
+
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 

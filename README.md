@@ -20,6 +20,7 @@
  * `swaylock`,
  * `swayidle`
  * `swaync`,
+ * `gnome-keyring`
  * `nwg-drawer`,
  * `pavucontrol`,
  * `blueman`,
@@ -35,6 +36,9 @@
  * `swww`,
  * `waybar`,
  * `azote`
+ * `xdg-desktop-portal`,
+ * `xdg-desktop-portal-wlr`
+
 
 # How to use keybinds on my custom Sway rice?
  * `Super (Windows) + O` - Open Firefox
