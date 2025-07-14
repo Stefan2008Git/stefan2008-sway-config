@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Stefan2008Git/stefan2008-sway-config/refs/heads/main/stuff/logo.png" width="700" alt="Logo"></img>
+  <img src="https://cdn.discordapp.com/attachments/947042706641809478/1394084479043108884/SCESS.png?ex=687585d8&is=68743458&hm=483e5390d4f6ee028fdf690aab43765f3ab107339f661c125d7c6ddb21cb1333&" width="700" alt="Logo"></img>
   <br/>
   <h1 align="center">My customised SwayWM rice dots</h1>
   <p align="center">Free to use no matter what!. </p>
@@ -7,7 +7,9 @@
 <br />
 
 <h1 align="center">The desktop!</h1>
-<img src="https://raw.githubusercontent.com/Stefan2008Git/stefan2008-sway-config/refs/heads/main/stuff/sway-showcase.png"></img>
+<img src="https://cdn.discordapp.com/attachments/947042706641809478/1394098841011228742/image.png?ex=68759338&is=687441b8&hm=df1bbb46169fedef591331d2128fde67ec335929ab3b4462667ae0a82571a9d0&"></img>
+
+<img src="https://cdn.discordapp.com/attachments/947042706641809478/1394098840587735050/image.png?ex=68759338&is=687441b8&hm=015d8f182dcae3aba764932df3acc970869b183bf0bb90b7f8053a63746dcef6&"></img>
 
 > [!NOTE] 
 > If you are planning to install this on your owm machine, then install the dependencies!
@@ -31,6 +33,8 @@
  * `swww`,
  * `waybar`,
  * `azote`
+
+
 
 # How to use keybinds on my custom Sway rice?
  * `Super (Windows) + O` - Open Firefox
