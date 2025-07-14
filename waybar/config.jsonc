@@ -121,7 +121,7 @@
   "memory": {
         "interval": 5,
         "format": " {:>3}% ",
-        "on-click": "xfce4-terminal -e htop",
+        "on-click": "xfce4-terminal -e btop",
         "states": {
             "warning": 70,
             "critical": 90

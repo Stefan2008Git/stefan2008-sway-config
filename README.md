@@ -26,6 +26,8 @@
  * `wofi`,
  * `foot`,
  * `xfce4-terminal`,
+ * `htop`,
+ * `btop`,
  * `thunar`,
  * `rofi`,
  * `cava`,
