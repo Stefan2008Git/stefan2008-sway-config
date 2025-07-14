@@ -4,7 +4,7 @@
 }
 
 window#waybar {
-  background-color: rgba(149, 1, 1, 0.85);
+  background-color: rgba(36, 40, 59, 1);
   color: #ffffff;
   border-radius: 0px;
   margin: 0;
@@ -27,12 +27,12 @@ window#waybar {
 
 #workspaces button.focused {
   background-color: #ffffff;
-  color: #1b1b1b;
+  color: #000000;
   border-radius: 0px;
 }
 
 #workspaces button.urgent {
-  background-color: #fb4934;
+  background-color: #000000;
   border-radius: 0px;
 }
 
