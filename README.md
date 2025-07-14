@@ -36,7 +36,7 @@
  * `Super (Windows) + ENTER` - Open foot (terminal emulator)
  * `Super (Windows) + minus` - Minimize the current process
  * `Super (Windows) + TAB` - Switch current running windows
- * `Super (Windows) + ENTER` - Close current process
+ * `Super (Windows) + X` - Close current process
  * `Super (Windows) + Shift + Print` - Screenshot the whole screen
  * `Super (Windows) + Ctrl + Print` - Screenshot the window region
  * `Super (Windows) + Print` - Screenshot the region
