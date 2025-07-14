@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://cdn.discordapp.com/attachments/947042706641809478/1394084479043108884/SCESS.png?ex=687585d8&is=68743458&hm=483e5390d4f6ee028fdf690aab43765f3ab107339f661c125d7c6ddb21cb1333&" width="700" alt="Logo"></img>
+  <img src="https://cdn.discordapp.com/attachments/1171174018091581472/1394282394659324024/SCESS.png?ex=68763e2b&is=6874ecab&hm=d5228dd309243640ab8a71aa1cf405136da638a6997324fab8303f7c72c4d38a&" width="700" alt="Logo"></img>
   <br/>
   <h1 align="center">My customised SwayWM rice dots</h1>
   <p align="center">Free to use no matter what!. </p>
