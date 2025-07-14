@@ -16,6 +16,7 @@
  * `sway`,
  * `swayfx`,
  * `swaylock`,
+ * `swayidle`
  * `swaync`,
  * `nwg-drawer`,
  * `pavucontrol`,
@@ -48,3 +49,4 @@
  * `Super (Windows) + Holding left mouse` - Move floating window
  * `Super (Windows) + Holding right mouse` - Resize floating window
  * `Super (Windows) + F` - Fullscreen
+ * `Super (Windows) + Shift + Reload` Reload the Sway desktop
