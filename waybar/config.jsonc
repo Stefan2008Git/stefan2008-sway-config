@@ -2,7 +2,7 @@
   "layer": "top",
   "position": "top",
   "height": 32,
-  "spacing": 2,
+  "spacing": 5,
   "margin-top": 8,
   "margin-left": 10,
   "margin-right": 10,
@@ -10,23 +10,21 @@
   // Modules
   "modules-left": [
     "custom/launcher",
-    "sway/workspaces",
     "mpris",
     "sway/mode"
   ],
   "modules-center": [
-    "network"
+    "sway/workspaces"
   ],
   "modules-right": [
     "custom/notification",
-    "cpu",
-    "memory",
     "backlight",
     "pulseaudio",
     "clock",
     "bluetooth",
     "battery",
     "battery#bat1",
+    "network",
     "tray",
     "custom/power"
   ],
@@ -36,14 +34,12 @@
         "on-click": "exec nwg-drawer",
         "tooltip": false
   },
-  "tray": {
-    "spacing": 10
-  },
   "clock": {
-    "format": "{:%H:%M}",
+    "format": "{:%H:%M:%S}",
     "format-alt": "{:%d/%m/%Y}",
     "timezone": "Europe/Vienna",
     "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "interval": 1,
     "calendar": {
       "mode": "month",
       "format": {
@@ -103,29 +99,11 @@
   },
   "network": {
         "interval": 5,
-        "format-wifi": "   {essid} ({signalStrength}%)", // Icon: wifi
+        "format-wifi": " ", // Icon: wifi
         "format-ethernet": "  {ifname}: {ipaddr}/{cidr}", // Icon: ethernet
-        "format-disconnected": "⚠  Disconnected",
-        "tooltip-format": "{ifname}: {ipaddr}",
+        "format-disconnected": "⚠",
+        "tooltip-format": "{essid} ({signalStrength}%)\n{ifname}: {ipaddr}",
         "on-click": "xfce4-terminal -e 'nmtui'",
-  },
-  "cpu": {
-        "interval": 5,
-        "format": " {usage:>3}% ",
-        "states": {
-            "warning": 70,
-            "critical": 90,
-        },
-        "on-click": "xfce4-terminal -e htop"
-  },
-  "memory": {
-        "interval": 5,
-        "format": " {:>3}% ",
-        "on-click": "xfce4-terminal -e btop",
-        "states": {
-            "warning": 70,
-            "critical": 90
-        }
   },
   "backlight": {
         "format": "{icon} {percent}% ",
@@ -136,12 +114,10 @@
   },
   "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon} {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " Muted {icon} {format_source}",
-        "format-muted": " Muted {format_source}",
-        "format-source": "{volume}% ",
-        "format-source-muted": "",
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{volume}% {icon}  {format_source}",
+        "format-bluetooth-muted": " Muted {icon}  {format_source}",
+        "format-muted": "Muted {format_source}",
         "format-icons": {
             "headphone": "  ",
             "hands-free": "  ",
@@ -149,7 +125,7 @@
             "phone": "  ",
             "portable": "  ",
             "car": "  ",
-            "default": ["  ", "  ", "  "]
+            "default": ["", "", "   "]
         },
         "on-click": "pavucontrol"
   },
@@ -160,7 +136,7 @@
     "on-click": "blueman-manager"
   },
   "tray": {
-        "icon-size": 16,
+        "icon-size": 15,
         "spacing":10
   },
   "custom/power": {
@@ -174,7 +150,7 @@
       "format-icons": {
       "notification": " <span foreground='#f38ba8'><sup> </sup></span>",
       "none": " ",
-      "dnd-notification": "  <span foreground='#f38ba8'><sup> </sup></span>",
+      "dnd-notification": " <span foreground='#f38ba8'><sup> </sup></span>",
       "dnd-none": " "
     },
       "return-type": "json",
@@ -185,15 +161,16 @@
       "escape": true
   },
   "mpris": {
-	  "format": " Playing: {player_icon} {dynamic}",
-	  "format-paused": " Paused: {status_icon} <i>{dynamic}</i>",
+	  "format": " Playing: {player_icon} {title} - {position} / {length}",
+	  "format-paused": " Paused: {status_icon} {title} - {position} / {length}",
+    "interval": 1,
 	  "player-icons": {
 		  "default": "▶",
 		  "mpv": "🎵"
-	  },
-	  "status-icons": {
-		  "paused": "⏸"
-	  },
+	},
+	"status-icons": {
+		"paused": "⏸"
+	},
 	  "ignored-players": ["firefox"]
   },
 }
