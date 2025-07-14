@@ -34,8 +34,6 @@
  * `waybar`,
  * `azote`
 
-
-
 # How to use keybinds on my custom Sway rice?
  * `Super (Windows) + O` - Open Firefox
  * `Super (Windows) + D` - Open application menu (Wofi)
@@ -47,9 +45,9 @@
  * `Super (Windows) + Ctrl + Print` - Screenshot the window region
  * `Super (Windows) + Print` - Screenshot the region
  * `Super (Windows) + Shift + Space` - Floating window
- * `Super (Windows) + W` - 
- * `Super (Windows) + E` - Toggle split
- * `Super (Windows) + S` - Snap windows
+ * `Super (Windows) + W` - Tabbing window layout
+ * `Super (Windows) + E` - Toggle spliting window layout
+ * `Super (Windows) + S` - Stacking window layout
  * `Super (Windows) + Holding left mouse` - Move floating window
  * `Super (Windows) + Holding right mouse` - Resize floating window
  * `Super (Windows) + F` - Fullscreen
