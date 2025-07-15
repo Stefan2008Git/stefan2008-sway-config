@@ -24,6 +24,7 @@
  * `gnome-keyring`,
  * `grimshot`,
  * `nwg-drawer`,
+ * `nwg-look`,
  * `pavucontrol`,
  * `blueman`,
  * `wofi`,
@@ -41,6 +42,8 @@
  * `xdg-desktop-portal`,
  * `xdg-desktop-portal-wlr`
 
+# How to install this on your Sway setup?
+* Copy importnat configurations on `~/.config` folder and copy wallpapers on `$HOME/Pictures/Wallpapers/`
 
 # How to use keybinds on my custom Sway rice?
  * `Super (Windows) + O` - Open Firefox

@@ -25,8 +25,8 @@
     "battery",
     "battery#bat1",
     "network",
-    "tray",
     "custom/notification",
+    "tray",
     "clock",
     "custom/power"
   ],
@@ -101,7 +101,7 @@
   },
   "network": {
         "interval": 5,
-        "format-wifi": " ", // Icon: wifi
+        "format-wifi": "   {bandwidthDownBits:>} 󰶡 {bandwidthUpBits:>} 󰶣", // Icon: wifi
         "format-ethernet": " ", // Icon: ethernet
         "format-disconnected": "⚠",
         "tooltip-format": "{essid} ({signalStrength}%)\n{ifname}: {ipaddr}",
