@@ -14,7 +14,11 @@
 > [!NOTE] 
 > If you are planning to install this on your owm machine, then install the dependencies!
 
-# Dependencies:
+
+<details>
+    <summary>Instructions!</summary> 
+<h1 align="center">Dependencies</h1>
+
  * `sway`,
  * `swayfx`,
  * `swaylock`,
@@ -42,14 +46,18 @@
  * `xdg-desktop-portal`,
  * `xdg-desktop-portal-wlr`
 
-# How to install this on your Sway setup?
+
+<h1 align="center">After i installed all dependencies, what now?</h1>
+
 * Copy important configurations on `~/.config/` folder and copy wallpapers on `$HOME/Pictures/Wallpapers/`
 
-# How to use keybinds on my custom Sway rice?
- * `Super (Windows) + O` - Open Firefox
+<h1 align="center">How to use keybinds on your custom Sway rice?</h1>
+
+* `Super (Windows) + O` - Open Firefox
  * `Super (Windows) + D` - Open application menu (Wofi)
  * `Super (Windows) + ENTER` - Open foot (terminal emulator)
- * `Super (Windows) + minus` - Minimize the current process
+ * `Super (Windows) + Shift + Minus` - Minimize the current process
+ * `Super (Windows) + Minus` - Unminize the current process 
  * `Super (Windows) + TAB` - Switch current running windows
  * `Super (Windows) + X` - Close current process
  * `Super (Windows) + Shift + Print` - Screenshot the whole screen
@@ -63,3 +71,8 @@
  * `Super (Windows) + Holding right mouse` - Resize floating window
  * `Super (Windows) + F` - Fullscreen
  * `Super (Windows) + Shift + R` Reload the Sway desktop
+</details>
+
+
+
+ 
