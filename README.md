@@ -15,7 +15,7 @@
 > If you are planning to install this on your owm machine, then install the dependencies!
 
 # How to install this on your Sway setup?
-* Copy importnat configurations on `~/.config/` folder and copy wallpapers on `$HOME/Pictures/Wallpapers/`
+* Copy important configurations on `~/.config/` folder and copy wallpapers on `$HOME/Pictures/Wallpapers/`
 
 # Dependencies:
  * `sway`,
