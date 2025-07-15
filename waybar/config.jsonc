@@ -1,31 +1,33 @@
 {
   "layer": "top",
   "position": "top",
-  "height": 32,
-  "spacing": 5,
-  "margin-top": 8,
+  "height": 33,
+  "margin-top": 10,
   "margin-left": 10,
   "margin-right": 10,
+  "spacing": 1,
 
   // Modules
   "modules-left": [
     "custom/launcher",
-    "mpris",
-    "sway/mode"
+    "mpris"
   ],
+
   "modules-center": [
     "sway/workspaces"
   ],
+
   "modules-right": [
-    "custom/notification",
-    "backlight",
     "pulseaudio",
-    "clock",
+    "cpu",
+    "memory",
     "bluetooth",
     "battery",
     "battery#bat1",
     "network",
     "tray",
+    "custom/notification",
+    "clock",
     "custom/power"
   ],
 
@@ -100,24 +102,17 @@
   "network": {
         "interval": 5,
         "format-wifi": " ", // Icon: wifi
-        "format-ethernet": "  {ifname}: {ipaddr}/{cidr}", // Icon: ethernet
+        "format-ethernet": " ", // Icon: ethernet
         "format-disconnected": "⚠",
         "tooltip-format": "{essid} ({signalStrength}%)\n{ifname}: {ipaddr}",
-        "on-click": "xfce4-terminal -e 'nmtui'",
-  },
-  "backlight": {
-        "format": "{icon} {percent}% ",
-        "format-icons": ["󰄰 ", "󰪞 ", "󰪟 ", "󰪠 ", "󰪡 ", "󰪢 ", "󰪣 ", "󰪤 ", "󰪥 "],
-        "tooltip-format": "Backlight (Scroll): {percent:}%",
-        "on-scroll-down": "brightnessctl -c backlight set 5%-",
-        "on-scroll-up": "brightnessctl -c backlight set +5%"
+        "on-click": "xfce4-terminal -e 'nmtui'"
   },
   "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
         "format": "{icon} {volume}%",
         "format-bluetooth": "{volume}% {icon}  {format_source}",
         "format-bluetooth-muted": " Muted {icon}  {format_source}",
-        "format-muted": "Muted {format_source}",
+        "format-muted": "Muted",
         "format-icons": {
             "headphone": "  ",
             "hands-free": "  ",
@@ -137,7 +132,7 @@
   },
   "tray": {
         "icon-size": 15,
-        "spacing":10
+        "spacing":1
   },
   "custom/power": {
         "format":" ⏻  ",
@@ -148,9 +143,9 @@
       "tooltip": false,
       "format": "{icon}",
       "format-icons": {
-      "notification": " <span foreground='#f38ba8'><sup> </sup></span>",
+      "notification": " <span foreground='#f38ba8'><sup> </sup></span> ",
       "none": " ",
-      "dnd-notification": " <span foreground='#f38ba8'><sup> </sup></span>",
+      "dnd-notification": " <span foreground='#f38ba8'><sup> </sup></span> ",
       "dnd-none": " "
     },
       "return-type": "json",
@@ -173,4 +168,23 @@
 	},
 	  "ignored-players": ["firefox"]
   },
+  "cpu": {
+        "interval": 5,
+        "format": " {usage:>3}% ",
+        "states": {
+            "warning": 70,
+            "critical": 90,
+        },
+        "on-click": "footclient -T waybar_htop -e htop"
+    },
+
+    "memory": {
+        "interval": 5,
+        "format": " {:>3}%",
+        "on-click": "footclient -T waybar_htop -e htop",
+        "states": {
+            "warning": 70,
+            "critical": 90
+        }
+    }
 }
