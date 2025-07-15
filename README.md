@@ -14,9 +14,6 @@
 > [!NOTE] 
 > If you are planning to install this on your owm machine, then install the dependencies!
 
-# How to install this on your Sway setup?
-* Copy important configurations on `~/.config/` folder and copy wallpapers on `$HOME/Pictures/Wallpapers/`
-
 # Dependencies:
  * `sway`,
  * `swayfx`,
@@ -44,6 +41,9 @@
  * `azote`
  * `xdg-desktop-portal`,
  * `xdg-desktop-portal-wlr`
+
+# How to install this on your Sway setup?
+* Copy important configurations on `~/.config/` folder and copy wallpapers on `$HOME/Pictures/Wallpapers/`
 
 # How to use keybinds on my custom Sway rice?
  * `Super (Windows) + O` - Open Firefox
