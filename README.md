@@ -49,7 +49,7 @@
 
 <h1 align="center">After i installed all dependencies, what now?</h1>
 
-* Copy important configurations on `~/.config/` folder and copy wallpapers on `$HOME/Pictures/Wallpapers/`
+* Copy important configurations on `~/.config/` folder and copy wallpapers from `wallpaper` on `$HOME/Pictures/Wallpapers/`
 
 <h1 align="center">How to use keybinds on your custom Sway rice?</h1>
 
